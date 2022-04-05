@@ -3,7 +3,7 @@ import './Activity.css'
 
 const Activity = ({ activity }) => {
     const { title, img } = activity;
-    // console.log(img)
+     console.log(img)
     return (
         <div className='activity'>
             <img src={img} alt="" />
